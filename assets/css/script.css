@@ -1,0 +1,53 @@
+.body{
+    background-color:linear-gradient(90deg, rgb(244,244,245), rgb(218,217,217));
+}
+
+.menu{
+    background-color:linear-gradient(90deg, rgb(244,244,245), rgb(218,217,217));
+    width: 100%;
+    height: 10vh;
+    padding: 0 5%;
+}
+
+.seccion-uno, .seccion-dos{
+    width: 100%;
+    height: 90vh;
+    padding: 0 5%;
+}
+.seccion-uno .img{
+    width: 280px;
+}
+.seccion-uno button{
+    width: 100px;
+}
+
+.seccion-dos .img1{
+    width: px;
+    height: 160px;
+    border: 10px;
+}
+
+
+.logo1, .logo2, .logo3{
+    padding:0 15%;
+}
+
+.seccion-cuatro{
+    padding: 5%;
+}
+
+.seccion-cinco{
+    padding: 5%;
+}
+@media only screen and (max-width: 767px){
+
+    .seccion-tres{
+        display: none;
+    }
+    .logo1, .logo2, .logo3{
+        padding:0 15%;
+    }
+    .img{
+        padding: 5%;
+    }
+  }
